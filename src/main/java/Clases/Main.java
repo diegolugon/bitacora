@@ -15,11 +15,8 @@ public class Main {
             System.out.println("");
             System.out.println("Bitacora de Aprendizaje");
             System.out.println("");
-            System.out.println("1. Registrar Materia");
-            System.out.println("2. Registrar Tema");
-            System.out.println("3. Registrar los items correspondiente a la materia");
-            System.out.println("4. Registrar Investigacion ");
-            System.out.println("5. Registrar Ejercicio ");
+            System.out.println("1. Registrar Informacion para la Bitacora");
+            System.out.println("2. Listar materias");
             System.out.println("6. Lista de tareas pendientes");
             System.out.println("7. Salir");
             System.out.println("");
@@ -30,10 +27,10 @@ public class Main {
         
         switch (opcion) {
             case 1:
-               unaBitacora.registrarMateria();
+               unaBitacora.registrarInfo();
                 break;
             case 2:
-               
+               unaBitacora.visualizarMateria();
                 break;
             case 3:
  
